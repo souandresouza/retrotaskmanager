@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas Retro</title> <!-- Translated title -->
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pda">
+        <div class="screen">
+            <h1>Tarefas</h1> <!-- Translated heading -->
+            <input type="text" id="taskInput" placeholder="Adicionar uma tarefa..."> <!-- Translated placeholder -->
+            <button id="addTask">Adicionar</button> <!-- Translated button -->
+            <div class="filter">
+                <button id="showAll">Todas</button> <!-- Translated button -->
+                <button id="showPending">Pendentes</button> <!-- Translated button -->
+                <button id="showDone">Concluídas</button> <!-- Translated button -->
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
